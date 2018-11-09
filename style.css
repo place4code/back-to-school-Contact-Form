@@ -1,0 +1,118 @@
+body, input, button, textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-form {
+    width: 480px;
+    border: 1px solid #fafafa;
+    box-shadow: 0px 8px 32px 0px rgba(0,0,0,0.3);
+    margin: 100px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.container-form img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.container-form header {
+    padding: 32px;
+    font-size: 14px;
+}
+
+.container-form header span {
+    margin-left: 16px;
+    padding: 5px 9px;
+    border-radius: 6px;
+    background-color: rgb(235, 235, 235);
+}
+
+.container-form header p {
+    padding-left: 16px;
+}
+
+.container-form header p, .container-form header img {
+    float: left;
+}
+
+.container-form article {
+    margin-left: 64px;
+    padding: 64px 32px;
+}
+
+.container-form article textarea {
+    margin-top: 8px;
+    width: 340px;
+    height: 80px;
+    font-size: 12px;
+    transition: all ease 0.3s;
+}
+
+.container-form article textarea:focus {
+    transition: all ease 0.3s;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+}
+
+.container-form article input {
+    transition: all ease 0.3s;
+}
+
+.container-form article input:focus {
+    transition: all ease 0.3s;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+}
+
+.nice-border {
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.btn-submit {
+    margin-top: 16px;
+    float: right;
+    padding: 9px 14px;
+    border-radius: 6px;
+    border: none;
+    color: #f0f0f0;
+    background-color: #0088cc;
+    transition: all ease 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #0173ac;
+    transition: all ease 0.3s;
+}
+
+.btn-clear {
+    margin-right: 16px;
+    margin-top: 16px;
+    float: right;
+    padding: 9px 14px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    transition: all ease 0.3s;
+}
+
+.btn-clear:hover {
+    background-color: rgb(218, 218, 218);
+    transition: all ease 0.3s;
+}
+
+.err {
+    display: none;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    font-size: 26px;
+    color: #fafafa;
+    background-color: #ee1414;
+    padding: 16px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 20px;
+    opacity: 0.7;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+}
